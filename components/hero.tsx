@@ -39,7 +39,7 @@ export function Hero() {
     greeting: "안녕하세요,",
     name: "이한비",
     title: "ㅁㄴㅇㄹ",
-    description: "ㅁㄴㅇㄹ",
+    description: "부동산금융 전문가로 성장하겠습니다.",
     profileImage: "/uploads/hero-profile-1761477237286.png",
     backgroundImage: "",
     backgroundVideo: "",
