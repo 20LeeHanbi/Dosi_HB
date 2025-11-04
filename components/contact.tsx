@@ -34,29 +34,35 @@ export function Contact() {
   
   // 기본 데이터
   const defaultInfo = {
-    name: "당신의 이름",
+    name: "이한비",
     title: "직책/직무",
-    company: "",
-    experience: "3년 경력",
+    company: "한국투자저축은행",
+    experience: "신입행원",
     phone: "010-0000-0000",
-    email: "your-email@example.com",
+    email: "32203644@dankook.ac.kr",
     website: "",
-    location: "당신의 위치",
-    workTime: "평일 09:00 - 18:00",
-    responseTime: "24시간 이내 응답",
+    location: "경기도, 대한민국",
+    workTime: "평일 08:30 - 17:30",
+    responseTime: "평일 기준 24시간 이내 응답",
     sectionTitle: "연락처",
     sectionSubtitle: "프로젝트 문의나 협업 제안을 기다리고 있습니다. 편하신 방법으로 연락주세요!",
     qrTitle: "QR 코드로 연락처 저장",
     qrSubtitle: "스캔하면 연락처가 자동으로 저장됩니다",
-    bottomMessage: "함께 성장하는 파트너가 되겠습니다.",
-    bottomSubMessage: "고객님의 성공적인 프로젝트를 위해 최선을 다하겠습니다.",
+    bottomMessage: "함께 성장하는 부동산금융 전문가가 되겠습니다.",
+    bottomSubMessage: "고객님들에게 최고의 금융서비스를 제공하고, 다시금 찾아주실 수 있는 최고의 맞춤형 금융컨설팅을 제공하겠습니다! ",
     qrContent: ["name","phone","email","location","website"],
     profileEmoji: "👤",
     background: {"image":"","video":"","color":"","opacity":0.1}
   }
   
   // 소셜 링크 기본값 (배열 형태로 변경)
-  const defaultSocialLinks: { name: string; icon: string; url: string }[] = []
+  const defaultSocialLinks: { name: string; icon: string; url: string }[] = [
+    {
+      "name": "네이버 블로그",
+      "icon": "globe",
+      "url": "https://blog.naver.com/20oneb"
+    }
+  ]
   
   const [contactInfo, setContactInfo] = useState(defaultInfo)
   const [socialLinks, setSocialLinks] = useState(defaultSocialLinks)
