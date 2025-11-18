@@ -35,9 +35,9 @@ export function Contact() {
   // 기본 데이터
   const defaultInfo = {
     name: "이한비",
-    title: "직책/직무",
+    title: "여신영업",
     company: "한국투자저축은행",
-    experience: "신입행원",
+    experience: "행원",
     phone: "010-0000-0000",
     email: "32203644@dankook.ac.kr",
     website: "",

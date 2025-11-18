@@ -38,9 +38,9 @@ export function Hero() {
   const defaultInfo = {
     greeting: "안녕하세요,",
     name: "이한비",
-    title: "ㅁㄴㅇㄹ",
+    title: "한국투자저축은행 행원",
     description: "부동산금융 전문가로 성장하겠습니다.",
-    profileImage: "/uploads/hero-profile-1761477237286.png",
+    profileImage: "/uploads/hero-profile-1763474771613.jpg",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,

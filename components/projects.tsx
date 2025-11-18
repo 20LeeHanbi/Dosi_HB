@@ -17,13 +17,8 @@ export function Projects() {
     subtitle: "프로젝트",
     initialDisplay: 6,
     loadMoreCount: 3,
-    background: {
-      image: "",
-      video: "",
-      color: "",
-      opacity: 0.1
-    },
-    projects: [] as Array<{ image: string; video?: string; title: string; description: string }>
+    background: {"image":"","video":"","color":"","opacity":0.1},
+    projects: [{"image":"/uploads/project-1763475523086-1763475523581.png","video":"","title":"부동산입지 '인생네컷' 점포 입지분석 프로젝트","description":"즉석사진관 '인생네컷' 입지 분석 프로젝트\n관광지 수원 행궁동과 중심상가 용인 수지구청역 두 점포의 입지 및 상권 분석"},{"image":"/uploads/project-1763475769205-1763475769777.png","video":"","title":"선형회귀분석을 통한 주차장 수요 예측 모델 프로젝트","description":"공동주택 건설 시 적정 주차가능면수 확보를 위한 프로젝트\n파이썬을 통한 선형회귀분석으로 컬럼별 요인을 파악하고 아파트 주차장 수요 예측 모델 제안"},{"image":"/uploads/project-1763475956224-1763475956469.png","video":"","title":"세종행복도시 대중교통중심개발(TOD)의 문제점 분석 및 개선방안 도출 프로젝트","description":"세종행복도시의 BRT노선 비효율, 차량교통 및 철도교통 불편 등의 문제점을 파악\n광역교통망인 국가철도망계획(안) 및 BRT노선 변경(안) 제안"},{"image":"/uploads/project-1763476123323-1763476123475.png","video":"","title":"동탄 메타폴리스 2단계 PF부지의 개발방식에 따른 사업성분석 프로젝트","description":"15년간 유휴부지로 방치된 동탄 메타폴리스 2단계 PF부지에 대해서\n복합문화시설, 오피스텔, 주상복합 세 가지 개발방식에 따른 사업성 분석 진행"},{"image":"/uploads/project-1763476308313-1763476308325.png","video":"","title":"주택의 유형에 따른 주거공간 분석 프로젝트","description":"주거공간의 면적을 정의하는 여러 기준과 최저주거기준에 따른 최소 필요면적에 대한 분석을 통해\n최저주거기준 상향과 관련된 의견을 제안"},{"image":"/uploads/project-1763476479629-1763476479904.png","video":"","title":"차세대 주거환경에 대한 고찰과 제로에너지 주택 사례 분석 프로젝트","description":"노원 에너지제로 주택의 사례를 분석하고, 향후 미래 주거환경에서의 에너지 기술 도입을 통한  탄소제로의 필요성을 고찰 "},{"image":"/uploads/project-1763476688724-1763476688863.png","video":"","title":"부동산빅데이터 분석을 통한 주택 투자 및 실거주지역 분석 프로젝트","description":"공공데이터 및 GIS정보, 오픈API를 활용한 빅데이터 분석을 통해 가상의 투자자를 위한 실거주 및 투자 목적의 주택 마련 계획 수립 프로젝트 진행"},{"image":"/uploads/project-1763476971145-1763476971533.png","video":"","title":"남촌동 도시재생거점시설 활성화 리브랜딩 프로젝트","description":"인천광역시 남동구 남촌동을 대상으로 도시재생거점시설인 \"희망꽃 창작소\"의 활성화 방안 중 일환으로 기존 마사협의 수익사업인 막걸리 사업의 리브랜딩 및 사업전략 디자인"},{"image":"/uploads/project-1763477075464-1763477075601.png","video":"","title":"지방세 보조금 지급의 효율성 향상 방안 연구 프로젝트","description":"지방의 의료인프라 확충을 위해 지급하는 지방세 보조금 효율성을 제고하기 위해서\n인구, 수도권 대학병원 재무제표 등의 데이터를 바탕으로 지방 대학병원의 안전한계율을 75% 이상 유지할 수 있도록 하는 만큼의 지방세 보조금을 지급하는 선형회귀분석 모델을 개발"}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)
