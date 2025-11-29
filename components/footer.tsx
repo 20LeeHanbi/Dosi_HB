@@ -24,7 +24,7 @@ export function Footer() {
   const defaultInfo = {
     showFooter: true,
     name: "이한비",
-    description: "부동산금융 전문가로 성장하겠습니다!",
+    description: "맞춤형 부동산금융 서비스를 제공해 드리겠습니다!",
     showQuickLinks: true,
     quickLinksTitle: "빠른 링크",
     showContactInfo: true,

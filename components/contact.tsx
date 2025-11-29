@@ -43,7 +43,7 @@ export function Contact() {
     website: "",
     location: "화성시, 경기도, 대한민국",
     workTime: "평일 08:30 - 17:30",
-    responseTime: "평일 기준 24시간 이내 응답",
+    responseTime: "평일 기준 1시간 이내 응답",
     sectionTitle: "연락처",
     sectionSubtitle: "편하신 방법으로 연락주세요!",
     qrTitle: "QR 코드로 연락처 저장",
@@ -52,7 +52,7 @@ export function Contact() {
     bottomSubMessage: "고객님들에게 최고의 금융서비스를 제공하고, 다시금 찾아주실 수 있는 최고의 맞춤형 금융컨설팅을 제공하겠습니다! ",
     qrContent: ["name","phone","email","location","website"],
     profileEmoji: "👤",
-    background: {"image":"","video":"","color":"","opacity":0.1}
+    background: {"image":"/uploads/contact-background-1764433384483.jpg","video":"","color":"","opacity":0.5}
   }
   
   // 소셜 링크 기본값 (배열 형태로 변경)

@@ -98,7 +98,7 @@ export function About() {
   const defaultInfo = {
     title: "소개",
     subtitle: "이력을 소개드립니다.",
-    background: {"image":"","video":"","color":"","opacity":0.1},
+    background: {"image":"/uploads/about-background-1764433348102.jpg","video":"","color":"","opacity":0.5},
     experienceCards: [{"icon":"briefcase","title":"한국투자저축은행","period":"2025.11 ~ 현재","description":"종합(여신영업)"},{"icon":"briefcase","title":"경기신용보증재단","period":"2024.12~2025.01.","description":"인턴"},{"icon":"briefcase","title":"화성시 병점 도시재생현장센터","period":"2024.06~2024.11.","description":"인턴"},{"icon":"graduation","title":"단국대학교 죽전캠퍼스","period":"2020.03~2026.02.(졸업예정)","description":"전공:도시계획부동산학부 부동산학전공 학점:4.41/4.5(수석)"},{"icon":"trophy","title":"투자자산운용사","period":"2023.02.23.","description":"한국금융투자협회"},{"icon":"trophy","title":"공인중개사","period":"2020.12.14.","description":"한국산업인력공단"},{"icon":"award","title":"2024년 도시재생 청년인턴 해커톤 최우수상 수상","period":"2024.11.01.","description":"주택도시보증공사"},{"icon":"award","title":"제1회 지방세미래정책 대학생 아이디어 공모전 장려상 수상","period":"2024.06.28.","description":"한국지방세연구원"}],
     skills: [{"icon":"users","title":"적극성과 책임감, 그리고 리더십","description":"대학시절, 공모전 등 팀프로젝트에서 조장을 맡아 성공적으로 과제를 수행하며 쌓은 팀워크 역량이 있습니다."},{"icon":"target","title":"부동산 개발사업 수익성 분석","description":"동탄 메타폴리스 PF 2단계 사업부지의 개발 유형별 수지분석 등 다양한 부동산 사업을 검토하며 쌓은 분석력이 있습니다."},{"icon":"star","title":"부동산금융 역량","description":"부동산금융, 투자론, 신탁 등의 수업을 들으며 부동산활동에서의 금융 역량을 쌓았습니다."}],
     storyTitle: "나의 이야기",
