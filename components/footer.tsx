@@ -29,7 +29,7 @@ export function Footer() {
     quickLinksTitle: "빠른 링크",
     showContactInfo: true,
     contactTitle: "연락처",
-    phone: "010-0000-0000",
+    phone: "010-9775-2744",
     email: "32203644@dankook.ac.kr",
     location: "",
     copyright: "© 2025 이한비. All rights reserved.",
